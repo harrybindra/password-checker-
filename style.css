@@ -1,0 +1,63 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+#inpu-btn {
+    width: 425px;
+    height: 40px;
+    margin-top: -13%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp {
+    position: absolute;
+    width: 425px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    padding-left: 10px;
+    background-color: rgba(84, 235, 235, 0.564);
+}
+
+#inp::placeholder {
+    color: aliceblue;
+}
+
+#btn {
+    position: absolute;
+    border: none;
+    margin-left: 28%;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+}
+
+ul {
+    position: absolute;
+    margin-top: 50px;
+    width: 400PX;
+    margin-left: 30px;
+    background-color: rgba(128, 128, 128, 0.469);
+    list-style: circle;
+
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+
+ul li {
+    padding-top: 10px;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(0, 0, 0);
+
+}
